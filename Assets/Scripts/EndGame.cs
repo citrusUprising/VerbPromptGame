@@ -15,4 +15,8 @@ public class EndGame : MonoBehaviour
     {
         
     }
+
+    public void Button(){
+        Application.Quit();
+    }
 }
