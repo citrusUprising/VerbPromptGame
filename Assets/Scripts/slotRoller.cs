@@ -8,6 +8,7 @@ public class slotRoller : MonoBehaviour
 {
     private List<int> numbersLeft = new List<int>();
     public GameObject evidenceList;
+    public int rollLimit;
     Random rand;
     
     void Awake(){
@@ -36,14 +37,21 @@ public class slotRoller : MonoBehaviour
     }
 
     public void rollNumber(){
+        if (rollLimit <= 0) return;
         Random rand = new Random();
-        int roll = rand.Next(numbersLeft.Count);
-        Debug.Log("rolled a "+roll);
+        int roll = rand.Next(numbersLeft.Count); 
+        int rollFace = numbersLeft[roll];
+        Debug.Log("rolled a "+rollFace);
         //////Move to SubRoutine//////
         //everything involved with spinning the slot
-        evidenceList.GetComponent<ManageEvidence>().findEvidence(roll);
+        evidenceList.GetComponent<ManageEvidence>().findEvidence(rollFace);
         //////////////////////////////
-        numbersLeft.RemoveAt(roll);
+        numbersLeft.RemoveAt(roll); //currently having issues
+        Debug.Log("Array now contains");
+        for(int i = 0; i < numbersLeft.Count; i++){
+            Debug.Log(", "+numbersLeft[i]);
+        }
+        rollLimit--;
     }
 
 

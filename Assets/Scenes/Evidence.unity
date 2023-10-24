@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidenceList: {fileID: 386603336}
+  rollLimit: 7
 --- !u!1001 &93258859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -613,7 +614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7290742124773317025, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
