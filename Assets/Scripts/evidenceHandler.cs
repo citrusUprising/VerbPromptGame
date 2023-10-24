@@ -6,7 +6,7 @@ using TMPro;
 
 public class evidenceHandler : MonoBehaviour
 {
-    public GameObject diplayButton;
+    public GameObject displayButton;
     public GameObject nameObject;
     public GameObject textWall;
     public GameObject tab;
@@ -29,8 +29,8 @@ public class evidenceHandler : MonoBehaviour
     }
 
     public void enable (){
-        //displayButton.enable;
         nameObject.GetComponent<TextMeshProUGUI>().text = name;
+        //displayButton.GetComponent<Button>().;
     }
 
     public void toggleText(){
