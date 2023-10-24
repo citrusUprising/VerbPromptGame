@@ -51,11 +51,12 @@ public class evidenceHandler : MonoBehaviour
     }
 
     public void ask (int person){
-        if (questionsLeft <=0 ){
+        Debug.Log("Interviewing Person#"+(person+1));
+        /*if (questionsLeft <=0 ){
 
         }
         else{
             //suspects[person]
-        }
+        }*/
     }
 }
