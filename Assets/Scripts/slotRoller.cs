@@ -26,7 +26,7 @@ public class slotRoller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Debug.Log("Slot is Active:");
     }
 
     // Update is called once per frame
@@ -38,10 +38,13 @@ public class slotRoller : MonoBehaviour
     public void rollNumber(){
         Random rand = new Random();
         int roll = rand.Next(numbersLeft.Count);
+        Debug.Log("rolled a "+roll);
         //////Move to SubRoutine//////
         //everything involved with spinning the slot
         evidenceList.GetComponent<ManageEvidence>().findEvidence(roll);
         //////////////////////////////
         numbersLeft.RemoveAt(roll);
     }
+
+
 }

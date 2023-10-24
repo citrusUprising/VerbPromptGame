@@ -21,6 +21,7 @@ public class ManageEvidence : MonoBehaviour
 
     public void findEvidence(int i){
         items[i].GetComponent<evidenceHandler>().enable();
+        Debug.Log("Enabled Evidence #"+(i+1));
     }
 
 }
