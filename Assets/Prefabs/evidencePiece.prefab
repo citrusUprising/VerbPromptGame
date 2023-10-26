@@ -614,7 +614,7 @@ MonoBehaviour:
   highlight: {r: 1, g: 1, b: 1, a: 0.29803923}
   standard: {r: 0, g: 0, b: 0, a: 0}
   name: defaultItem
-  isActive: 0
+  isAwake: 0
   arrayLoc: 0
   complete: 0
 --- !u!1 &4099848066689897544
@@ -653,7 +653,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 130, y: 0}
-  m_SizeDelta: {x: 1000, y: 250}
+  m_SizeDelta: {x: 975, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5280648327313604889
 CanvasRenderer:

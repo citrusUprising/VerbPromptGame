@@ -231,6 +231,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: 'Bullet Shell
+
+        Two shell casings were found in the office,
+        and one bullet hole was found near the door and another one found on the
+        opposite wall.'
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 150
@@ -529,6 +537,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Peace Charm\r\nWaiter at casino: \"I accidentally spilled wine on Alec's
+        shirt before, and I saw something similar to a circle on his chest.\"\nIs
+        it a peace charm? I don't know, maybe it\u2019s something else."
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -350
@@ -593,6 +607,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
 --- !u!4 &216910432 stripped
@@ -612,6 +630,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Casino\u2019s Account\r\nWhile checking whether the casino was operating
+        in compliance, some unusual records were discovered, and it seemed that someone
+        had tampered with the accounts.\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_SizeDelta.x
       value: 500
@@ -787,6 +811,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Text between Mrs.Emerson and Quinten\r\nA photo of the lock screen
+        of Mrs.'s cell phone was found in the folder, and one of the prompts contained
+        a text message sent by Quinten to Mrs. Emerson. It read, \"Don't worry. He
+        would not know. Kid is in safe\u2026 \""
+      objectReference: {fileID: 0}
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -450
@@ -846,6 +881,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -1066,6 +1105,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Birth Certification\r\nA yellowed paper found in Mr.Emerson\u2019s
+        office.\r\nMr.and Mrs.Emerson\u2019s son. Born on August 13th, 1921."
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50
@@ -1481,6 +1525,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: 'Calendar
+
+        Found a calendar in the office with a meeting in
+        red circle at 10pm for 30 min.'
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 50
@@ -1540,6 +1591,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -2493,6 +2548,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Letter from Mr.Emerson\u2019s Body\r\nHe was shot in the chest, his
+        hands were covered in blood, and an old letter stained with blood was found
+        on his body. "
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -250
@@ -2572,6 +2633,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Mr.Emerson\u2019s body\r\nHe was shot in the chest, his hands were
+        covered in blood, and an old letter stained with blood was found on his body."
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 250
@@ -2651,6 +2717,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: 'Gun
+
+        A gun was found at the scene. After comparing the shell
+        and gun model, it was confirmed to be the murder weapon.'
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -150
@@ -2730,6 +2803,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 386603337}
     m_Modifications:
+    - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: 'Blood Trace
+
+        There were spurts of blood on the desk and the
+        wall. In addition, there were continuous drops of blood on the floor, extending
+        from the desk to near the door.'
+      objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 350
@@ -2789,6 +2870,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
