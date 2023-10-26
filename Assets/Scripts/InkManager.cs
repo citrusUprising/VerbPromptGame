@@ -15,7 +15,7 @@ public class InkManager : MonoBehaviour
     private TMPro.TMP_Text textField;
 
     [SerializeField]
-    private VerticalLayoutGroup choiceButtonContainer;
+    private HorizontalLayoutGroup choiceButtonContainer;
 
     [SerializeField]
     private Button choiceButtonPrefab;
