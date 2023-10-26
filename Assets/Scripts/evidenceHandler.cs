@@ -15,13 +15,16 @@ public class evidenceHandler : MonoBehaviour
     public Color standard;
     public string name;
     private bool isActive;
+    public bool isAwake;
     private int questionsLeft = 2;
     public int arrayLoc;
     private GameObject[] itemRef;
+    public bool complete = false;
 
     // Start is called before the first frame update
     void Start()
     {
+     isAwake= false;
      isActive = false;   
      itemRef = this.GetComponentInParent<ManageEvidence>().items;
     }
@@ -35,7 +38,7 @@ public class evidenceHandler : MonoBehaviour
     public void enable (){
         nameObject.GetComponent<TextMeshProUGUI>().text = name;
         displayButton.SetActive(true);
-        Debug.Log("button enabled");
+        isAwake = true;
         toggleText();
     }
 
@@ -44,12 +47,12 @@ public class evidenceHandler : MonoBehaviour
         isActive = !isActive;
         //Debug.Log("Active:" + isActive);
         if(isActive){
-            for (int i = 0; i < itemRef.Length; i++){
+            for (int i = 0; i < itemRef.Length; i++){ //disables all currently active evidence windows
                 if (itemRef[i].GetComponent<evidenceHandler>().isActive){
                     itemRef[i].GetComponent<evidenceHandler>().toggleText();
                 }
             }
-            this.isActive = true;
+            this.isActive = true; //reenables this evidence window
             tab.GetComponent<Image>().color = highlight;
             textWall.SetActive(true);
             
@@ -66,10 +69,11 @@ public class evidenceHandler : MonoBehaviour
             suspects[person].GetComponentInChildren<TextMeshProUGUI>().enabled = true;
             suspects[person].GetComponent<Image>().enabled = true;
             questionsLeft --;
-            //open interrogation (person, arrayLoc+1);
-        }
-        else{
-            disableSuspects();
+            if (questionsLeft <= 0 ){
+                disableSuspects();
+                this.GetComponentInParent<ManageEvidence>().daisyChain();
+            }
+            //open interrogation (person, arrayLoc+1);//flag
         }
     }
 
@@ -77,5 +81,6 @@ public class evidenceHandler : MonoBehaviour
             for (int i = 0; i < suspects.Length; i++){
                 suspects[i].GetComponentInChildren<Button>().enabled = false;
             }
+            complete = true;
     }
 }

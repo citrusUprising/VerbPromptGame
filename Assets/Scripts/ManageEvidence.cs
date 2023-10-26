@@ -7,6 +7,7 @@ using TMPro;
 public class ManageEvidence : MonoBehaviour
 {
     public GameObject[] items;
+    public GameObject checker;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,11 @@ public class ManageEvidence : MonoBehaviour
 
     public void findEvidence(int i){
         items[i].GetComponent<evidenceHandler>().enable();
-        Debug.Log("Enabled Evidence #"+(i+1));
+        //Debug.Log("Enabled Evidence #"+(i+1));
+    }
+
+    public void daisyChain(){
+        checker.GetComponent<CheckForFinal>().checkFinal();
     }
 
 }

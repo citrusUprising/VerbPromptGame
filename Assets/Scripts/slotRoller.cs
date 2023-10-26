@@ -16,6 +16,7 @@ public class slotRoller : MonoBehaviour
     private int currentSlot = 0;
     private int slotBackwards = 0;
     private int rollFace = 1;
+    public bool check = false;
     Random rand;
     
     void Awake(){
@@ -65,21 +66,23 @@ public class slotRoller : MonoBehaviour
     }
 
     public void rollNumber(){
-        if (rollLimit <= 0) return;
+        if (rollLimit <= 0) {
+            return;
+        }
         Random rand = new Random();
         int roll = rand.Next(numbersLeft.Count); 
         rollFace = numbersLeft[roll];
-        Debug.Log("rolled a "+rollFace);
-        //////Move to SubRoutine//////
-        //everything involved with spinning the slot
+        //Debug.Log("rolled a "+rollFace);
         rolling = true;
-        //////////////////////////////
-        numbersLeft.RemoveAt(roll); //currently having issues
-        Debug.Log("Array now contains");
+        numbersLeft.RemoveAt(roll);
+        /*Debug.Log("Array now contains");
         for(int i = 0; i < numbersLeft.Count; i++){
             Debug.Log(", "+numbersLeft[i]);
-        }
+        }*/
         rollLimit--;
+        if (rollLimit <= 0) {
+            check = true;
+        }
     }
 
 
