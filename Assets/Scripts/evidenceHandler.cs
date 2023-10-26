@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class evidenceHandler : MonoBehaviour
@@ -73,7 +74,7 @@ public class evidenceHandler : MonoBehaviour
                 disableSuspects();
                 this.GetComponentInParent<ManageEvidence>().daisyChain();
             }
-            //open interrogation (person, arrayLoc+1);//flag
+            SceneManager.LoadScene(2, LoadSceneMode.Additive);
         }
     }
 
