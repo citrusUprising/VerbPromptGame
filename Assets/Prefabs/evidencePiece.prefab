@@ -540,7 +540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23058024, g: 0.7511135, b: 0.9622642, a: 0.6666667}
+  m_Color: {r: 0.23058024, g: 0.7511135, b: 0.9622642, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -614,7 +614,9 @@ MonoBehaviour:
   highlight: {r: 1, g: 1, b: 1, a: 0.29803923}
   standard: {r: 0, g: 0, b: 0, a: 0}
   name: defaultItem
+  isAwake: 0
   arrayLoc: 0
+  complete: 0
 --- !u!1 &4099848066689897544
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,7 +653,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 130, y: 0}
-  m_SizeDelta: {x: 1000, y: 250}
+  m_SizeDelta: {x: 975, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5280648327313604889
 CanvasRenderer:
