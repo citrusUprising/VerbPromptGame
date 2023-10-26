@@ -235,9 +235,9 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Bullet Shell
 
-        Two shell casings were found in the office,
-        and one bullet hole was found near the door and another one found on the
-        opposite wall.'
+        Two shell casings were found in the office, and
+        one bullet hole was found near the door and another one found on the opposite
+        wall.'
       objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2494,11 +2494,11 @@ MonoBehaviour:
       - m_Target: {fileID: 990349746}
         m_TargetAssemblyTypeName: CheckForFinal, Assembly-CSharp
         m_MethodName: goToEnd
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckForFinal : MonoBehaviour
 {
@@ -44,8 +45,7 @@ public class CheckForFinal : MonoBehaviour
         }
     }
 
-    public void goToEnd(){
-        //open guess scene
-        //flag
+    public void goToEnd(int scene){
+         SceneManager.LoadScene(scene);
     }
 }
