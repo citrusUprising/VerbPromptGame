@@ -1,7 +1,10 @@
--> intro
+INCLUDE goodEnding.ink
+INCLUDE Shouts.ink
+
+-> shouts
 
 == intro ==
-Mr. Emerson, the CEO of Lucky Nights Casino, was shot dead in his office last night. This morning, you arrived on the scene.
+Mr. Emerson, the CEO of Lucky Nights Casino, was shot dead in his office last night. This morning, you arrived on the scene. 
 There are three main suspects.
 -> suspects
 
