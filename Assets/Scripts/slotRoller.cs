@@ -12,10 +12,9 @@ public class slotRoller : MonoBehaviour
     public int rollLimit;
     private int slotDisplay; //temporary
     private bool rolling;
-    private float timeF = 0;
     private int time = 0;
     private int currentSlot = 0;
-    private int slotBackwards = 2;
+    private int slotBackwards = 0;
     private int rollFace = 1;
     Random rand;
     
@@ -41,26 +40,26 @@ public class slotRoller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeF += Time.deltaTime*1;
-        timeF%=5;
-        if(Input.anyKeyDown){
-            timeF=0;
-            }
-        time = (int)timeF;
-        Debug.Log("Time is "+time);
+        time=Time.frameCount%30;
+        //Debug.Log("Time is "+time);
         if(rolling&&time==0){
             if(currentSlot<3){
                 slots[currentSlot].GetComponent<RollingAnimator>().startRoll();
                 currentSlot++;
-            }else{
+                Debug.Log("Started slot #"+currentSlot);
+            }else if (slotBackwards<3){
                 slots[slotBackwards].GetComponent<RollingAnimator>().rollNumber(rollFace);
-                slotBackwards--;
-                if(slotBackwards < 0){
-                    rolling = false;
-                    currentSlot = 0;
-                    slotBackwards = 2;
-                    evidenceList.GetComponent<ManageEvidence>().findEvidence(rollFace);
-                }
+                slotBackwards++;
+                Debug.Log("Stopping slot #"+slotBackwards);
+            }
+            if(currentSlot==5&&slotBackwards==5){
+                evidenceList.GetComponent<ManageEvidence>().findEvidence(rollFace);
+                slotBackwards = 0;
+                currentSlot = 0;
+                rolling = false;
+            }else if (currentSlot >= 3&&slotBackwards >= 3){
+                currentSlot++;
+                slotBackwards++;
             }
         }
     }

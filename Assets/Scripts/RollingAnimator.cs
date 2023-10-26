@@ -10,19 +10,17 @@ public class RollingAnimator : MonoBehaviour
     private bool rolling = false;
     private int targetRoll;
     private int time = 0;
-    private float timeF = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        QualitySettings.vSyncCount = 0;  // VSync must be disabled
+	    Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame
     void Update()
     {
-        timeF += Time.deltaTime*1;
-        timeF %= 2;
-        time = (int)timeF;
+        time = Time.frameCount%4;
         if(time == 0){
             if(rolling){
                 number%=10;
