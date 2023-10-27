@@ -1108,7 +1108,7 @@ PrefabInstance:
     - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
       value: "Birth Certification\r\nA yellowed paper found in Mr.Emerson\u2019s
-        office.\r\nMr.and Mrs.Emerson\u2019s son. Born on August 13th, 1921."
+        office.\r\nMr.and Mrs.Emerson\u2019s son. Born on August 13th, 1989."
       objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
