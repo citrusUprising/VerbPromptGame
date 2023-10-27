@@ -303,6 +303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evidencePiece4
       objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
 --- !u!4 &93258860 stripped
@@ -684,6 +688,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Mrs. Emerson says she purposefully kept her distance from Casino operations,
+        and felt vindicated when told there was something fishy about the accounts.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1342163191947730828, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -768,6 +781,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten says he handles the account, and that revenue has dipped over
+        the last 2 months. He points out Mrs. Emerson has been acting off since then.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Alec says he came to the Casino 2 months ago, that it's highly successful,
+        and that other less successful casinos wanted Mr. Emerson dead.
+      objectReference: {fileID: 0}
     - target: {fileID: 3972413888170901504, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Type
       value: 1
@@ -786,6 +809,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742511425395909445, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5941924674393500933, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -909,6 +936,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
@@ -1203,6 +1234,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -1629,6 +1664,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
@@ -2713,6 +2752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evidencePiece8
       objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
 --- !u!4 &1609760863 stripped
@@ -2800,6 +2843,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -2891,6 +2938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evidencePiece7
       objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
 --- !u!4 &1633718502 stripped
@@ -2939,6 +2990,10 @@ PrefabInstance:
       propertyPath: evidenceName
       value: Blood Trace
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Mrs. Emerson thinks this
+      objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2986,6 +3041,10 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Quinten thinks this
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
