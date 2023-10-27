@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Witness 2 thinks this.
+  m_text: Alec thinks this
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -613,10 +613,11 @@ MonoBehaviour:
   - {fileID: 5941924674393500933}
   highlight: {r: 1, g: 1, b: 1, a: 0.29803923}
   standard: {r: 0, g: 0, b: 0, a: 0}
-  name: defaultItem
+  evidenceName: 
   isAwake: 0
   arrayLoc: 0
   complete: 0
+  mainCamera: {fileID: 0}
 --- !u!1 &4099848066689897544
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +952,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Witness 1 thinks this.
+  m_text: Mrs. Emerson thinks this
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1488,7 +1489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Witness 3 thinks this.
+  m_text: Quinten thinks this
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
