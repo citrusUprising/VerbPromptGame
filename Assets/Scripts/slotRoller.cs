@@ -39,7 +39,7 @@ public class slotRoller : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         time=Time.frameCount%30;
         //Debug.Log("Time is "+time);

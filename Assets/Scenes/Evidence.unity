@@ -253,7 +253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -557,7 +557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -836,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -856,15 +856,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -929,6 +929,7 @@ Transform:
   m_Children:
   - {fileID: 780473306}
   - {fileID: 271599046}
+  - {fileID: 376108520}
   - {fileID: 1682610410}
   - {fileID: 1611488136}
   - {fileID: 93258860}
@@ -937,7 +938,6 @@ Transform:
   - {fileID: 1633718502}
   - {fileID: 1609760863}
   - {fileID: 216910432}
-  - {fileID: 376108520}
   m_Father: {fileID: 2135067057}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1125,7 +1125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1219,7 +1219,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -540, y: 0}
-  m_SizeDelta: {x: 160, y: 150}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631341293
 MonoBehaviour:
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Let's test your luck! Spin the Slots \u2192"
+  m_text: "Let's test your luck! Roll the Slots \u2192"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1547,7 +1547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1803,7 +1803,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0a5ce6a539f8c4d37bdd02b4bff9ed12, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: fb89b977932644ac3a25303048080383, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2370,7 +2370,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8bfef48f533d344029a7ac1728fc8b74, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2626,7 +2626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2710,7 +2710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2796,7 +2796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2888,7 +2888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3577,10 +3577,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2100, y: 100}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

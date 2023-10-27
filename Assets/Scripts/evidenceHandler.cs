@@ -14,20 +14,23 @@ public class evidenceHandler : MonoBehaviour
     public GameObject[] suspects;
     public Color highlight;
     public Color standard;
-    public string name;
+    public string evidenceName;
     private bool isActive;
     public bool isAwake;
     private int questionsLeft = 2;
     public int arrayLoc;
     private GameObject[] itemRef;
     public bool complete = false;
+    public GameObject mainCamera;
 
     // Start is called before the first frame update
     void Start()
     {
-     isAwake= false;
-     isActive = false;   
-     itemRef = this.GetComponentInParent<ManageEvidence>().items;
+        isAwake= false;
+        isActive = false;   
+        itemRef = this.GetComponentInParent<ManageEvidence>().items;
+
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
     }
 
     // Update is called once per frame
@@ -37,7 +40,7 @@ public class evidenceHandler : MonoBehaviour
     }
 
     public void enable (){
-        nameObject.GetComponent<TextMeshProUGUI>().text = name;
+        nameObject.GetComponent<TextMeshProUGUI>().text = evidenceName;
         displayButton.SetActive(true);
         isAwake = true;
         toggleText();
@@ -75,6 +78,7 @@ public class evidenceHandler : MonoBehaviour
                 this.GetComponentInParent<ManageEvidence>().daisyChain();
             }
             this.GetComponentInParent<ManageEvidence>().updatePasser(arrayLoc+1,person);
+            mainCamera.SetActive(false);
             SceneManager.LoadScene(6, LoadSceneMode.Additive);
         }
     }
