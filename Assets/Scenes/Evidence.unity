@@ -690,7 +690,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Mrs. Emerson thinks this
+      value: Mrs. Emerson says she purposefully kept her distance from Casino operations,
+        and felt vindicated when told there was something fishy about the accounts.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1342163191947730828, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Enabled
@@ -778,11 +783,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: Quinten says he handles the account, and that revenue has dipped over
+        the last 2 months. He points out Mrs. Emerson has been acting off since then.
       objectReference: {fileID: 0}
     - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Alec thinks this
+      value: Alec says he came to the Casino 2 months ago, that it's highly successful,
+        and that other less successful casinos wanted Mr. Emerson dead.
       objectReference: {fileID: 0}
     - target: {fileID: 3972413888170901504, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Type
@@ -802,6 +809,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742511425395909445, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5941924674393500933, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
