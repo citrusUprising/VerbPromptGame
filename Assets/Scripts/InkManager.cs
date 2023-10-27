@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 using Ink.Runtime;
 
@@ -90,6 +91,10 @@ public class InkManager : MonoBehaviour
     public void DisplayNextLine()
     {
         Debug.Log("DisplayNextLine");
+        // if (!story.canContinue)
+        // {
+        //     // SceneManager.UnloadSceneAsync(2);
+        // }
         if (story.canContinue)
         {
             Debug.Log("Continuing");

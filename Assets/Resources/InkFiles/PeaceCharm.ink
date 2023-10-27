@@ -41,8 +41,7 @@ What will you ask him?
 * "We are going to search you, please cooperate."
     "Hey, is this part of the program? I didn't do anything.
     (search)
-    Let’s just say, there’s nothing, I didn’t do anything.
-"
+    Let’s just say, there’s nothing, I didn’t do anything."
     -> who_to_question
 
 = quinten
