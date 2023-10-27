@@ -46,6 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 0}
+  numbersLeft: 
+  rollLimit: 7
 --- !u!114 &625026604393807558
 MonoBehaviour:
   m_ObjectHideFlags: 0

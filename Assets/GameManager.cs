@@ -6,10 +6,21 @@ using UnityEngine.SceneManagement;
 public class GameManager : UnitySingleton<GameManager>
 {
     public GameObject mainCamera;
+    public GameObject slotRoller;
+    public List<int> numbersLeft = new List<int>();
+
+    [SerializeField]
+    public int rollLimit;
     // Start is called before the first frame update
     void Start()
     {
+        for (int i = 0; i < 10; i++)
+        {
+            numbersLeft.Add(i);
+        }
+
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        slotRoller = GameObject.Find("Canvas");
     }
 
     // Update is called once per frame
@@ -28,6 +39,8 @@ public class GameManager : UnitySingleton<GameManager>
     {
         Debug.Log("Dialogue to Evidence");
         SceneManager.UnloadSceneAsync(6);
+        slotRoller.SetActive(false);
+        slotRoller.SetActive(true);
         mainCamera.SetActive(true);
     }
 }
