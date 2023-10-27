@@ -48,7 +48,7 @@ public class InkManager : MonoBehaviour
     private void DisplayChoices()
     {
         if (choiceButtonContainer.GetComponentsInChildren<Button>().Length > 0) return;
-        Debug.Log("# of buttons: " + story.currentChoices.Count);
+        // Debug.Log("# of buttons: " + story.currentChoices.Count);
         for (int i = 0; i < story.currentChoices.Count; i++) // iterates through all choices
         {
             var choice = story.currentChoices[i];
@@ -91,23 +91,23 @@ public class InkManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
-        Debug.Log("DisplayNextLine");
+        // Debug.Log("DisplayNextLine");
         // if (!story.canContinue)
         // {
         //     // SceneManager.UnloadSceneAsync(2);
         // }
         if (story.canContinue)
         {
-            Debug.Log("Continuing");
+            // Debug.Log("Continuing");
             string text = story.Continue(); // gets next line
-            Debug.Log(text);
+            // Debug.Log(text);
             text = text.Trim(); // removes white space from text
-            Debug.Log(text);
+            // Debug.Log(text);
             textField.text = text; // displays new text
         }
         else if (story.currentChoices.Count > 0)
         {
-            Debug.Log("I love choices");
+            // Debug.Log("I love choices");
             DisplayChoices();
         }
         else if (story.canContinue == false)
@@ -118,6 +118,7 @@ public class InkManager : MonoBehaviour
             }
             else
             {
+                GameManager.Instance.DialogueToEvidence();
                 SceneManager.UnloadSceneAsync(6);
             }
         }

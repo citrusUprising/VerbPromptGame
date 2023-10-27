@@ -17,7 +17,7 @@ public class ProgressText : MonoBehaviour
             Debug.Log("Ink Manager not found");
         }
 
-        Debug.Log("Turned on");
+        // Debug.Log("Turned on");
     }
 
     // Update is called once per frame

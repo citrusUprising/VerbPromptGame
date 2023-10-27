@@ -21,8 +21,6 @@ public class evidenceHandler : MonoBehaviour
     public int arrayLoc;
     private GameObject[] itemRef;
     public bool complete = false;
-    public GameObject mainCamera;
-    public GameObject eventSystem;
 
     // Start is called before the first frame update
     void Start()
@@ -30,9 +28,6 @@ public class evidenceHandler : MonoBehaviour
         isAwake= false;
         isActive = false;   
         itemRef = this.GetComponentInParent<ManageEvidence>().items;
-
-        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
-        eventSystem = GameObject.Find("EventSystem");
     }
 
     // Update is called once per frame
@@ -80,9 +75,7 @@ public class evidenceHandler : MonoBehaviour
                 this.GetComponentInParent<ManageEvidence>().daisyChain();
             }
             this.GetComponentInParent<ManageEvidence>().updatePasser(arrayLoc, person);
-            mainCamera.SetActive(false);
-            eventSystem.SetActive(false);
-            SceneManager.LoadScene(6, LoadSceneMode.Additive);
+            GameManager.Instance.EvidenceToDialogue();
         }
     }
 

@@ -33,7 +33,7 @@ public class ManageEvidence : MonoBehaviour
 
     public void updatePasser(int evidence, int suspect){
         evidenceType = (EnumHolder.Evidence) evidence;
-        Debug.Log(evidenceType.ToString());
+        // Debug.Log(evidenceType.ToString());
         passer.GetComponent<DialoguePassIn>().character = suspect;
         passer.GetComponent<DialoguePassIn>().evidence = evidenceType;
     }

@@ -7,9 +7,14 @@
 Mr. Emerson, the CEO of Lucky Nights Casino, was shot dead in his office last night. This morning, you arrived on the scene. 
 There are three main suspects.
 -> suspects
+= suspects
 
-== suspects ==
+{suspects > 3:
+    -> END
+}
+
 {Who will you question?|Who will you question?|Who will you question?|}
+
 * Mrs. Emerson, the wife of the deceased.
 -> wife_intro_questions
 

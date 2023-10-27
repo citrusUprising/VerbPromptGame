@@ -8,7 +8,7 @@ public class EnumHolder : MonoBehaviour
     {
         CasinoAccount,
         BloodTrace,
-        Body,
+        Search,
         BulletShell,
         Calendar,
         BirthCertificate,
