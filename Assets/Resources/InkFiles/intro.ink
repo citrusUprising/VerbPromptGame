@@ -1,5 +1,5 @@
-INCLUDE goodEnding.ink
-INCLUDE badEnding.ink
+// INCLUDE goodEnding.ink
+// INCLUDE badEnding.ink
 
 -> intro
 
