@@ -15,6 +15,7 @@ public class EnumHolder : MonoBehaviour
         Gun,
         Letter,
         PeaceCharm,
-        Text
+        Text,
+        intro
     }
 }

@@ -22,9 +22,9 @@ public class IntroButton : MonoBehaviour
 
     public void open(){
         passIn.GetComponent<DialoguePassIn>().character = suspect;
-        passIn.GetComponent<DialoguePassIn>().evidence = 0;
-        selfCancel();
-        SceneManager.LoadScene(6, LoadSceneMode.Additive);
+        passIn.GetComponent<DialoguePassIn>().evidence = EnumHolder.Evidence.intro;
+        // selfCancel();
+        SceneManager.LoadScene(6);
     }
 
     private void selfCancel(){
