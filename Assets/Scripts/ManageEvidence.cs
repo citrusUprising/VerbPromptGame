@@ -8,6 +8,7 @@ public class ManageEvidence : MonoBehaviour
 {
     public GameObject[] items;
     public GameObject checker;
+    public GameObject passer;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,11 @@ public class ManageEvidence : MonoBehaviour
 
     public void daisyChain(){
         checker.GetComponent<CheckForFinal>().checkFinal();
+    }
+
+    public void updatePasser(int evidence, int suspect){
+        passer.GetComponent<DialoguePassIn>().character = suspect;
+        passer.GetComponent<DialoguePassIn>().evidence = evidence;
     }
 
 }

@@ -21,5 +21,10 @@ public class StartGame : MonoBehaviour
     public void Button(int scene){
         Debug.Log("Transitioning Scene");
         SceneManager.LoadScene(scene);
+        
+    }
+
+    public void Additive(int scene){
+        SceneManager.LoadScene(scene, LoadSceneMode.Additive);
     }
 }
