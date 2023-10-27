@@ -255,6 +255,11 @@ PrefabInstance:
       propertyPath: evidenceName
       value: Bullet Shell
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "There hasn\u2019t been a shooting at the casino before. Mr. Emerson
+        doesn't usually carry his gun."
+      objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -305,7 +310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: There may have been a shooting at the casino a few years ago.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Alec had not heard of any shootings.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -567,6 +576,11 @@ PrefabInstance:
       propertyPath: evidenceName
       value: Peace Charm
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Mrs. Emerson doesn\u2019t know who Alec is and doesn\u2019t recognize
+        the amulet."
+      objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -614,6 +628,14 @@ PrefabInstance:
     - target: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Name
       value: evidencePiece9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Quinten had heard of Alec but hasn\u2019t met him."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Alec doesn\u2019t recognize the amulet."
       objectReference: {fileID: 0}
     - target: {fileID: 3972413888170901504, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RaycastTarget
@@ -690,8 +712,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Mrs. Emerson says she purposefully kept her distance from Casino operations,
-        and felt vindicated when told there was something fishy about the accounts.
+      value: Mrs. Emerson does not get involved in the casino accounts. She believes
+        Mr. Emerson to have been too easy to deceive.
       objectReference: {fileID: 0}
     - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Enabled
@@ -783,13 +805,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten says he handles the account, and that revenue has dipped over
-        the last 2 months. He points out Mrs. Emerson has been acting off since then.
+      value: 'Quinten says he handles the account. The revenue has dropped in the
+        past two months. '
       objectReference: {fileID: 0}
     - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Alec says he came to the Casino 2 months ago, that it's highly successful,
-        and that other less successful casinos wanted Mr. Emerson dead.
+      value: The casino brings in a lot of money. Alec had been working there for
+        two months.
       objectReference: {fileID: 0}
     - target: {fileID: 3972413888170901504, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_Type
@@ -877,6 +899,11 @@ PrefabInstance:
       propertyPath: evidenceName
       value: Text
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Mrs. Emerson had hired a detective to find the whereabouts of their
+        estranged son.
+      objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -939,7 +966,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: Quinten was helping Mrs. Emerson find their estranged son. He has no
+        idea what else could have been happening.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Alec did not know that Mr. and Mrs. Emerson had a child.
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
@@ -1187,6 +1219,11 @@ PrefabInstance:
       propertyPath: evidenceName
       value: Birth Certificate
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Mrs. Emerson had lost contact with her son and hasn\u2019t seen him
+        since."
+      objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1237,7 +1274,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: After Mr. Emerson lost his son, he and Quinten became friends. It was
+        a difficult decision that brought him to losing his son.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Alec did not know that Mr. and Mrs. Emerson had a son.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -1617,6 +1659,11 @@ PrefabInstance:
       propertyPath: evidenceName
       value: Calendar
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Mrs. Emerson didn\u2019t think anything special was happening that
+        day."
+      objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1667,7 +1714,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: Mr. Emerson was going to give Alec a raise. Quinten was in his office
+        the whole time.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Mr. Emerson wanted to do a performance review of Alec.
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
@@ -2704,6 +2756,12 @@ PrefabInstance:
       propertyPath: evidenceName
       value: Letter
       objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "The Emersons couldn\u2019t see their child until it was safe for them
+        to. Mrs. Emerson wanted to find him, but Mr. Emerson didn\u2019t want her
+        to."
+      objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2754,7 +2812,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: Quinten remembers when Mr. and Mrs. Emerson lost their child a long
+        time ago.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Alec can\u2019t make out the text."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -2777,8 +2840,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: "Mr.Emerson\u2019s body\r\nHe was shot in the chest, his hands were
-        covered in blood, and an old letter stained with blood was found on his body."
+      value: 'Standard Suspect Search
+
+        It''s always a good idea to search
+        suspects in case they have incriminating evidence on them'
       objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2794,7 +2859,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: evidenceName
-      value: Body
+      value: Standard Suspect Search
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Mrs. Emerson is wearing a new dress.
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
@@ -2846,7 +2915,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: Quinten smells of alcohol and perfume.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: Alec has bloodstains on the cuffs of his shirt and on the soles of his
+        shoes.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -2889,6 +2963,11 @@ PrefabInstance:
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: evidenceName
       value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "This is Mr. Emerson\u2019s gun. He\u2019s the only one who is allowed
+        a gun."
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
@@ -2940,7 +3019,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: "This is Mr. Emerson\u2019s gun, which he keeps in a locked drawer in
+        his desk."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "Alec doesn\u2019t recognize the gun. He couldn\u2019t have had one
+        in the casino."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
@@ -2992,7 +3077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1302244980381619905, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Mrs. Emerson thinks this
+      value: "Mrs. Emerson feels sick thinking about her husband\u2019s corpse."
       objectReference: {fileID: 0}
     - target: {fileID: 1978266650727846546, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_RootOrder
@@ -3044,7 +3129,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778760131257953312, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
-      value: Quinten thinks this
+      value: "Quinten doesn\u2019t know who Mr. Emerson would let bring in a gun."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878364314256818528, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
+      propertyPath: m_text
+      value: "There was blood on Alec\u2019s sleeve because he was trying to tell
+        if Mr. Emerson was still alive."
       objectReference: {fileID: 0}
     - target: {fileID: 5192097719062888609, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
