@@ -245,7 +245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 4
+      value: Bullet Shell
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -549,7 +549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 9
+      value: Peace Charm
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -658,7 +658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 1
+      value: "Casino\u2019s Account "
       objectReference: {fileID: 0}
     - target: {fileID: 996580345057362918, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
@@ -828,7 +828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 10
+      value: 'Text between Mrs.Emerson and Quinten '
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -1117,7 +1117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 6
+      value: 'Birth Certification '
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -1539,7 +1539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 5
+      value: Calendar
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2618,7 +2618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 8
+      value: "Letter from Mr.Emerson\u2019s Body "
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2702,7 +2702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 3
+      value: "Mr.Emerson\u2019s body "
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2788,7 +2788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 7
+      value: Gun
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2880,7 +2880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 2
+      value: Blood Trace
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
