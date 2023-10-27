@@ -245,7 +245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 4
+      value: Bullet Shell
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -549,7 +549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 9
+      value: Peace Charm
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -658,7 +658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 1
+      value: "Casino\u2019s Account "
       objectReference: {fileID: 0}
     - target: {fileID: 996580345057362918, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_IsActive
@@ -828,7 +828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 10
+      value: 'Text between Mrs.Emerson and Quinten '
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -965,6 +965,7 @@ MonoBehaviour:
   - {fileID: 216910433}
   - {fileID: 376108521}
   checker: {fileID: 990349744}
+  passer: {fileID: 1662781800}
 --- !u!1 &542327738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,7 +1109,7 @@ PrefabInstance:
     - target: {fileID: 381560715927380264, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_text
       value: "Birth Certification\r\nA yellowed paper found in Mr.Emerson\u2019s
-        office.\r\nMr.and Mrs.Emerson\u2019s son. Born on August 13th, 1921."
+        office.\r\nMr.and Mrs.Emerson\u2019s son. Born on August 13th, 1989."
       objectReference: {fileID: 0}
     - target: {fileID: 494370414577997998, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1116,7 +1117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 6
+      value: 'Birth Certification '
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -1538,7 +1539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 5
+      value: Calendar
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2176,6 +2177,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1491219289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075532054129431264, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966137902809271243, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+      propertyPath: m_Name
+      value: DialoguePassIn
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
 --- !u!1 &1504159237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 8
+      value: "Letter from Mr.Emerson\u2019s Body "
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2644,7 +2702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 3
+      value: "Mr.Emerson\u2019s body "
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2730,7 +2788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 7
+      value: Gun
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc
@@ -2796,6 +2854,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3456848824343427180, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
   m_PrefabInstance: {fileID: 1633718501}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1662781800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8966137902809271243, guid: 0d5a3e1bb57ba46c78e4b497028356da, type: 3}
+  m_PrefabInstance: {fileID: 1491219289}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1682610409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2817,7 +2880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: name
-      value: Item 2
+      value: Blood Trace
       objectReference: {fileID: 0}
     - target: {fileID: 557566329114088841, guid: ad6ccb55019db5d439bd42f6a6fad6d3, type: 3}
       propertyPath: arrayLoc

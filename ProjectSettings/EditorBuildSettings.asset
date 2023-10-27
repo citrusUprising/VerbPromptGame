@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Guess.unity
     guid: d772512c667449f46a441ef029496c20
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Interrogation.unity
     guid: 9cc646dd80dcc324b839864888d43f32
   - enabled: 1
@@ -26,4 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Incorrect.unity
     guid: 70f37e3d756afa64eb7255363be8a7db
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/Dialogue.unity
+    guid: ea0d30d92ba3f4e1099cc619e4456e28
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: bdbc420d81b2c425299f9efe87f0a752, type: 2}
