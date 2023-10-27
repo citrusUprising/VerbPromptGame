@@ -1,3 +1,5 @@
+-> good_ending
+
 == good_ending ==
 
 After rolling the slots, counting up all the evidence, and rigorously questioning the suspects, you have reached a point where you can make a desicion. 

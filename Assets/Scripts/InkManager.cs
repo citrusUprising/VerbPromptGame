@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 using Ink.Runtime;
 
@@ -23,10 +24,9 @@ public class InkManager : MonoBehaviour
     void Start()
     {
         dialoguePasser = GameObject.Find("DialoguePassIn");
-        Debug.Log("We're HERE!");
         string inkName = dialoguePasser.GetComponent<DialoguePassIn>().evidence.ToString();
+        Debug.Log(inkName);
         inkJsonAsset = Resources.Load<TextAsset>("InkFiles/" + inkName);
-
         StartStory();
 
         // inkJsonAsset = 
@@ -90,13 +90,18 @@ public class InkManager : MonoBehaviour
 
     public void DisplayNextLine()
     {
+        Debug.Log("DisplayNextLine");
+        // if (!story.canContinue)
+        // {
+        //     // SceneManager.UnloadSceneAsync(2);
+        // }
         if (story.canContinue)
         {
             Debug.Log("Continuing");
             string text = story.Continue(); // gets next line
-            
+            Debug.Log(text);
             text = text.Trim(); // removes white space from text
-            
+            Debug.Log(text);
             textField.text = text; // displays new text
         }
         else if (story.currentChoices.Count > 0)

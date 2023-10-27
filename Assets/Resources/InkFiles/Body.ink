@@ -1,6 +1,17 @@
+-> Body
+
+== Body ==
 Mr.Emerson’s body
 He was shot in the chest, his hands were covered in blood, and an old letter stained with blood was found on his body.
 
+-> who_to_question
+= who_to_question
+
+{ who_to_question > 2:
+    -> END
+}
+
+{Who will you ask about this?|Who else will you ask about this?}
 
  * Mrs. Emerson
  ** Some words are blurred. Can you help me identify them?

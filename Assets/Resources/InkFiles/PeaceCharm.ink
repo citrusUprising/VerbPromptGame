@@ -1,3 +1,5 @@
+-> PeaceCharm
+
 == PeaceCharm ==
 Peace Charm
 Waiter at casino: I accidentally spilled wine on Alec's shirt before, and I saw something similar to a circle on his chest. Is it a peace charm? I don't know, maybe it’s something else.
@@ -39,8 +41,7 @@ What will you ask him?
 * "We are going to search you, please cooperate."
     "Hey, is this part of the program? I didn't do anything.
     (search)
-    Let’s just say, there’s nothing, I didn’t do anything.
-"
+    Let’s just say, there’s nothing, I didn’t do anything."
     -> who_to_question
 
 = quinten

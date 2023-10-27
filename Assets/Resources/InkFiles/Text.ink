@@ -1,3 +1,5 @@
+-> Text
+
 == Text ==
 Text between Mrs.Emerson and Quinten
 A photo of the lock screen of Mrs.'s cell phone was found in the folder, and one of the prompts contained a text message sent by Quinten to Mrs. Emerson. It read, "Don't worry. He would not know. Kid is in safe… "
