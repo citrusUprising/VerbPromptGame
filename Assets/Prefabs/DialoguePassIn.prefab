@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8075532054129431264}
   - component: {fileID: -6202397996653042910}
+  - component: {fileID: 2196881194208149454}
   m_Layer: 0
-  m_Name: CharacterScript
+  m_Name: DialoguePassIn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,5 +43,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0560587bff8a64102ba09a1228538404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 0
+  evidence: 0
+--- !u!114 &2196881194208149454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966137902809271243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671aa1213619e4227a5846aa9f709962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

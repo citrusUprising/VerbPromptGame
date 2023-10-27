@@ -6,14 +6,8 @@ using Ink.Runtime;
 
 public class DialoguePassIn : MonoBehaviour
 {
-    // public 
-    public Sprite sprite;
-
-    // public Character(newStory, newSprite)
-    // {
-    //     story = newStory;
-    //     sprite = newSprite;
-    // }
+    public int character;
+    public int evidence;
 
     // Start is called before the first frame update
     void Start()
