@@ -13,7 +13,7 @@ public class ManageEvidence : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        passer = GameObject.Find("DialoguePassIn");
     }
 
     // Update is called once per frame
@@ -33,7 +33,7 @@ public class ManageEvidence : MonoBehaviour
 
     public void updatePasser(int evidence, int suspect){
         evidenceType = (EnumHolder.Evidence) evidence;
-
+        Debug.Log(evidenceType.ToString());
         passer.GetComponent<DialoguePassIn>().character = suspect;
         passer.GetComponent<DialoguePassIn>().evidence = evidenceType;
     }

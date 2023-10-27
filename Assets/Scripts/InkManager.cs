@@ -19,12 +19,13 @@ public class InkManager : MonoBehaviour
     [SerializeField]
     private Button choiceButtonPrefab;
     private Story story;
+    private string inkName;
 
     // Start is called before the first frame update
     void Start()
     {
         dialoguePasser = GameObject.Find("DialoguePassIn");
-        string inkName = dialoguePasser.GetComponent<DialoguePassIn>().evidence.ToString();
+        inkName = dialoguePasser.GetComponent<DialoguePassIn>().evidence.ToString();
         Debug.Log(inkName);
         inkJsonAsset = Resources.Load<TextAsset>("InkFiles/" + inkName);
         StartStory();
@@ -108,6 +109,17 @@ public class InkManager : MonoBehaviour
         {
             Debug.Log("I love choices");
             DisplayChoices();
+        }
+        else if (story.canContinue == false)
+        {
+            if (inkName == "intro")
+            {
+                SceneManager.LoadScene(2);
+            }
+            else
+            {
+                SceneManager.UnloadSceneAsync(2);
+            }
         }
     }
 }
