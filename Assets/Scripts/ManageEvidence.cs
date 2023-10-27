@@ -9,6 +9,7 @@ public class ManageEvidence : MonoBehaviour
     public GameObject[] items;
     public GameObject checker;
     public GameObject passer;
+    public EnumHolder.Evidence evidenceType;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +32,10 @@ public class ManageEvidence : MonoBehaviour
     }
 
     public void updatePasser(int evidence, int suspect){
+        evidenceType = (EnumHolder.Evidence) evidence;
+
         passer.GetComponent<DialoguePassIn>().character = suspect;
-        passer.GetComponent<DialoguePassIn>().evidence = evidence;
+        passer.GetComponent<DialoguePassIn>().evidence = evidenceType;
     }
 
 }

@@ -6,8 +6,8 @@ using Ink.Runtime;
 
 public class DialoguePassIn : MonoBehaviour
 {
+    public EnumHolder.Evidence evidence;
     public int character;
-    public int evidence;
 
     // Start is called before the first frame update
     void Start()

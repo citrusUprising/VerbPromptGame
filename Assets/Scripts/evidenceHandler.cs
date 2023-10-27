@@ -77,7 +77,7 @@ public class evidenceHandler : MonoBehaviour
                 disableSuspects();
                 this.GetComponentInParent<ManageEvidence>().daisyChain();
             }
-            this.GetComponentInParent<ManageEvidence>().updatePasser(arrayLoc+1,person);
+            this.GetComponentInParent<ManageEvidence>().updatePasser(arrayLoc, person);
             mainCamera.SetActive(false);
             SceneManager.LoadScene(6, LoadSceneMode.Additive);
         }

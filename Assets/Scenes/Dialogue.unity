@@ -463,7 +463,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &715028949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -889,7 +889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ad39d783c3e4852986606a8f3cae20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJsonAsset: {fileID: 4900000, guid: 49687f9a82e8d4d47a9224d853982a33, type: 3}
+  inkJsonAsset: {fileID: 4900000, guid: 6280953fe1cba47a3a100ceef197ca91, type: 3}
+  dialoguePasser: {fileID: 0}
   textField: {fileID: 396701225}
   choiceButtonContainer: {fileID: 1557300427}
   choiceButtonPrefab: {fileID: 1505786532975552226, guid: 3282780d27afc4174b3fa3a437bd5492, type: 3}

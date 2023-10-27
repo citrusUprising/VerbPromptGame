@@ -9,21 +9,27 @@ public class InkManager : MonoBehaviour
 {
     [SerializeField]
     private TextAsset inkJsonAsset;
-    private Story story;
-
+    [SerializeField]
+    private GameObject dialoguePasser;
     [SerializeField]
     private TMPro.TMP_Text textField;
-
     [SerializeField]
     private HorizontalLayoutGroup choiceButtonContainer;
-
     [SerializeField]
     private Button choiceButtonPrefab;
+    private Story story;
 
     // Start is called before the first frame update
     void Start()
     {
+        dialoguePasser = GameObject.Find("DialoguePassIn");
+        Debug.Log("We're HERE!");
+        string inkName = dialoguePasser.GetComponent<DialoguePassIn>().evidence.ToString();
+        inkJsonAsset = Resources.Load<TextAsset>("InkFiles/" + inkName);
+
         StartStory();
+
+        // inkJsonAsset = 
     }
 
     // Update is called once per frame
@@ -86,6 +92,7 @@ public class InkManager : MonoBehaviour
     {
         if (story.canContinue)
         {
+            Debug.Log("Continuing");
             string text = story.Continue(); // gets next line
             
             text = text.Trim(); // removes white space from text
@@ -94,6 +101,7 @@ public class InkManager : MonoBehaviour
         }
         else if (story.currentChoices.Count > 0)
         {
+            Debug.Log("I love choices");
             DisplayChoices();
         }
     }
