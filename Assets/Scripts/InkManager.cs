@@ -118,7 +118,7 @@ public class InkManager : MonoBehaviour
             }
             else
             {
-                SceneManager.UnloadSceneAsync(2);
+                SceneManager.UnloadSceneAsync(6);
             }
         }
     }
