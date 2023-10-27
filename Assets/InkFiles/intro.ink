@@ -1,8 +1,5 @@
 INCLUDE goodEnding.ink
-INCLUDE MrsEmersonEnding.ink
 INCLUDE badEnding.ink
-
-
 
 -> intro
 
