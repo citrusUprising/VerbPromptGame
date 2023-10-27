@@ -28,7 +28,6 @@ public class ProgressText : MonoBehaviour
 
     public void OnClick()
     {
-        Debug.Log("OnClick()");
         inkManager.DisplayNextLine();
     }
 }

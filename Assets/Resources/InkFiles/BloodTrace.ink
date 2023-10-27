@@ -1,3 +1,5 @@
+-> BloodTrace
+
 == BloodTrace ==
 Blood Trace
 There were spurts of blood on the desk and the wall. In addition, there were continuous drops of blood on the floor, extending from the desk to near the door.

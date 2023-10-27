@@ -1,3 +1,5 @@
+-> shouts
+
 == shouts ==
 Shouts
 There were reports of shouts right before the sound of gunshots on the night of the crime.

@@ -1,3 +1,5 @@
+-> Gun
+
 == Gun ==
 Gun
 A gun was found at the scene. After comparing the shell and gun model, it was confirmed to be the murder weapon.

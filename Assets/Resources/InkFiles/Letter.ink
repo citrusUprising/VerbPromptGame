@@ -1,3 +1,5 @@
+-> Letter
+
 == Letter ==
 Letter from Mr.Emerson’s Body
 He was shot in the chest, his hands were covered in blood, and an old letter stained with blood was found on his body. 

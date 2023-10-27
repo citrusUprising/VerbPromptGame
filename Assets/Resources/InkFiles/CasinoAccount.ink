@@ -1,3 +1,5 @@
+-> CasinoAccount
+
 == CasinoAccount  ==
 Casino’s Account
 While checking whether the casino was operating in compliance, some unusual records were discovered, and it seemed that someone had tampered with the accounts.

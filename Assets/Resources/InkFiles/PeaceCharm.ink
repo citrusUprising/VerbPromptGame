@@ -1,3 +1,5 @@
+-> PeaceCharm
+
 == PeaceCharm ==
 Peace Charm
 Waiter at casino: I accidentally spilled wine on Alec's shirt before, and I saw something similar to a circle on his chest. Is it a peace charm? I don't know, maybe it’s something else.
